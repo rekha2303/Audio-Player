@@ -1,0 +1,38 @@
+body
+{
+ width:100%;
+ margin:0 auto;
+ padding:0px;
+ font-family:helvetica;
+  background-image: url('images/painted.jpg');
+ background-color:#58ACFA;
+
+}
+#wrapper
+{
+ text-align:center;
+ margin:0 auto;
+ padding:320px;
+ width:995px;
+}
+#player
+{
+ background-color:#1ac6ff;
+ width:520px;
+ margin-left:180px;
+ padding:5px;
+ box-sizing:border-box;
+}
+input[type="image"]
+{
+ float:left;
+ height:30px;
+ margin-left:5px;
+ margin-right:5px;
+ margin-top:2px;
+}
+#vol_img
+{
+ margin-left:150px;
+ width:20px;
+}

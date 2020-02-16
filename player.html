@@ -1,0 +1,23 @@
+<html>
+<head>
+<script type="text/javascript" src="player.js"></script>
+<link rel="stylesheet" type="text/css" href="player.css">
+</head>
+<body>
+<div id="wrapper">
+<div id='player'>
+<audio id="audio">
+<source src="audio/Rahogi-Meri.mp3"/>
+</audio>
+
+<input type="image" src="images/play.png" onclick="play_aud()" id="play_button">
+<input type="image" src="images/pause.png" onclick="pause_aud()" id="play_button">
+<input type="image" src="images/next.png" onclick="next()" id="play_button">
+<input type="image" src="images/previous.png" onclick="previous()" id="play_button">
+<input type="image" src="images/stop.jpg" onclick="stop_aud()" id="play_button">
+<img src="images/sound.jpg" id="vol_img">
+<input type="range" id="change_vol" onchange="change_vol()" step="0.05" min="0" max="1" value="1">
+</div>
+</div>
+</body>
+</html>
